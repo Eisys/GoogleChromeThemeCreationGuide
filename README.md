@@ -118,7 +118,6 @@ For Google Chrome
             "ntp_section_link_underline": [0, 0, 0],
             "ntp_section_text": [0, 0, 0],
             "ntp_text": [0, 0, 0],
-            "tab_background_text": [0, 0, 0],
             "tab_text": [0, 0, 0],
             "tab_background_text": [0, 0, 0],
             "tab_background_text_inactive": [0, 0, 0],
@@ -213,6 +212,9 @@ Colors are entered as RGB values, some elements can contain opacity value also. 
 | 17.3  | The color of text in the section.                                     | "ntp_section_text"            |
 | 18.   | The color of all the text that comes in the inner background area.    | "ntp_text"                    |
 | 19.   | The color of text, in the title of all inactive tabs.                 | "tab_background_text"         |
+| 19.1. | The color of the same element, but in inactive mode.                  | "tab_background_text_inactive"     |
+| 19.2. | The color of the same element, but in incognito mode.                | "tab_background_text_incognito"    |
+| 19.3. | The color of the same element, but in incognito, inactive mode.      | "tab_background_text_incognito_inactive"|
 | 20.   | The color of text, in the title of current tab.                       | "tab_text"                    |
 | 21.   | The color of the toolbar background.                                  | "toolbar"                     |
 | 22.   | The color of the non-active tab.                                      | "background_tab"              |
