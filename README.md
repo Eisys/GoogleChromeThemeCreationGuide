@@ -124,6 +124,8 @@ For Google Chrome
             "tab_background_text_incognito": [0, 0, 0],
             "tab_background_text_incognito_inactive": [0, 0, 0],            
             "toolbar": [0, 0, 0, 0.0]
+            "omnibox_text": [0, 0, 0, 0.0]
+            "omnibox_background": [0, 0, 0, 0.0]
         },
         // Pick tint elements you're gonna use (or none). Tints are in HSL format.
         "tints": {
@@ -221,6 +223,8 @@ Colors are entered as RGB values, some elements can contain opacity value also. 
 | 22.1. | The color of the same element, but in inactive mode.                  | "background_tab_inactive"     |
 | 22.2. | The color of the same element, but in incognito mode.                 | "background_tab_incognito"    |
 | 22.3. | The color of the same element, but in incognito, inactive mode.       | "background_tab_incognito_inactive"|
+| 23.   | The color of the omnibox/url/address bar background                   | "omnibox_background"|
+| 23.1. | The color of the omnibox/url/address bar text                         | "omnibox_text"|
 
 # Tint Elements
 Tint elements change the hue, saturation and lightness of images.
