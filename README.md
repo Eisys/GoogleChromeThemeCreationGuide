@@ -105,6 +105,10 @@ For Google Chrome
             "frame_inactive": [0, 0, 0],
             "frame_incognito": [0, 0, 0],
             "frame_incognito_inactive": [0, 0, 0],
+            "background_tab": [0, 0, 0],
+            "background_tab_inactive": [0, 0, 0],
+            "background_tab_incognito": [0, 0, 0],
+            "background_tab_incognito_inactive": [0, 0, 0],            
             "ntp_background": [0, 0, 0],
             "ntp_header": [0, 0, 0],
             "ntp_link": [0, 0, 0],
@@ -116,6 +120,10 @@ For Google Chrome
             "ntp_text": [0, 0, 0],
             "tab_background_text": [0, 0, 0],
             "tab_text": [0, 0, 0],
+            "tab_background_text": [0, 0, 0],
+            "tab_background_text_inactive": [0, 0, 0],
+            "tab_background_text_incognito": [0, 0, 0],
+            "tab_background_text_incognito_inactive": [0, 0, 0],            
             "toolbar": [0, 0, 0, 0.0]
         },
         // Pick tint elements you're gonna use (or none). Tints are in HSL format.
@@ -207,6 +215,10 @@ Colors are entered as RGB values, some elements can contain opacity value also. 
 | 19.   | The color of text, in the title of all inactive tabs.                 | "tab_background_text"         |
 | 20.   | The color of text, in the title of current tab.                       | "tab_text"                    |
 | 21.   | The color of the toolbar background.                                  | "toolbar"                     |
+| 22.   | The color of the non-active tab.                                      | "background_tab"              |
+| 22.1. | The color of the same element, but in inactive mode.                  | "background_tab_inactive"     |
+| 22.2. | The color of the same element, but in incognito mode.                 | "background_tab_incognito"    |
+| 22.3. | The color of the same element, but in incognito, inactive mode.       | "background_tab_incognito_inactive"|
 
 # Tint Elements
 Tint elements change the hue, saturation and lightness of images.
